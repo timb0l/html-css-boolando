@@ -12,6 +12,22 @@ body {
     display: flex;
 }
 
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between { 
+    justify-content: space-between;
+}
+
+.wrap {
+    flex-wrap: wrap ;
+}
+
+
+
+/*font-utility*/
+
 
 /*header*/
 header { 
@@ -19,8 +35,7 @@ header {
     min-height: 70px;
     position: fixed;
     width: 100%;
-    box-shadow: 1px 1px 1px 1px rgba(110, 110, 110, 0.26);
-    
+    box-shadow: 1px 1px 1px 1px rgba(110, 110, 110, 0.26);    
 }
 
 .header_container {
@@ -44,10 +59,41 @@ header {
 }
 
 /*main*/
+
+main {
+    padding: 100px;
+}
+
 .main_title {
     justify-content: center;
 }
 
 .main_container {
+    
+}
+
+/*items*/
+.img_card {
+    height: 100px;
+    display: block;
+}
+
+/*footer*/
+
+footer {
+    background-color: rgb(39, 39, 39);
+    position: fixed;
+    width: 100%;
+    color: white;
+    gap: 40%;
+    align-items: end;
+}
+
+.footer_container {
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
     display: flex;
+    justify-content: space-around;
 }
