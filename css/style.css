@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header*/
+header { 
+    background-color: rgb(255, 123, 0);
+    min-height: 70px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px rgba(110, 110, 110, 0.26);
+    
+}
+
+.container {
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.genre_box {
+    min-height: 70px;
+}
+
+.logo {
+    width: 20%;
+    justify-content: center;
+}
