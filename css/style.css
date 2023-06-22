@@ -25,9 +25,18 @@ body {
 }
 
 
-
 /*font-utility*/
+a {
+    color: white;
+}
 
+h4 {
+    font-size: 12px;
+}
+
+h2 { 
+    font-size: 15px;
+}
 
 /*header*/
 header { 
@@ -46,11 +55,10 @@ header {
     display: flex;
     justify-content: space-around;
     
-    
-    
 }
-.genre_box {
-    min-height: 70px;
+.info_box{
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 .logo {
@@ -61,39 +69,84 @@ header {
 /*main*/
 
 main {
-    padding: 100px;
+    width: 60&;
+    padding: 80px;
+    margin: auto;
 }
-
-.main_title {
-    justify-content: center;
+.titlebox {
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    padding-top: 50px;
 }
 
 .main_container {
-    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-/*items*/
-.img_card {
-    height: 100px;
-    display: block;
+.item_container {
+    display: flex;
+    flex-wrap: wrap ;
+    padding: 5%;
 }
+/*items_cards*/
+.item_card {
+    border: 1px solid rgba(128, 128, 128, 0.226);
+    min-width: 100px;
+    padding: 1px;
+    margin: 10px;
+
+}
+
+.img_jpg {
+    width: 100%;
+    height: 500px;
+}
+
+.item_tag {
+
+}
+
+.brand_tag {
+    font-weight: lighter;
+}
+.brand_desc {
+    font-weight: 100;
+}
+
+.discount_price {
+    color: red;
+}
+.og_price {}
 
 /*footer*/
 
 footer {
     background-color: rgb(39, 39, 39);
-    position: fixed;
+    position:relative;
     width: 100%;
     color: white;
-    gap: 40%;
-    align-items: end;
+    min-width:: 70%;
 }
 
 .footer_container {
     max-width: 1400px;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: center;
     display: flex;
     justify-content: space-around;
+    height: 50px;
+}
+
+.info {
+    font-size: small;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.social {
+    font-size: small;
+    font-weight: lighter;
+    margin-top: 5px;
 }
